@@ -36,7 +36,6 @@ public class GraphicalUI extends JFrame {
     class ButtonEventListener implements ActionListener {
         Rng GenerateNumber = new Rng();
         public void actionPerformed(ActionEvent e) {
-            int variableTemp = 0;
             String message = "";
             message += "Your random number is:\n";
             int x = Integer.parseInt(inputFirst.getText());
